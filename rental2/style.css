@@ -1,0 +1,79 @@
+/* this is main css file for every page . Whatsoever page developer creates ,v this file should be used as its stylesheet . Developer can add required class and id as required . */
+body , html {
+background-color: rgb(235, 222, 247); 
+height: 100%;
+width: 100%;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ***************************************************************************** */
+ /* This is header , NOT TO BE ALTERED */
+nav{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.NavProfile{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color:rgb(53, 0, 103) ;
+    width: 9%;
+    justify-content: space-around;
+    padding: 5px;
+}
+.logo{
+    color:rgb(53, 0, 103) ;
+    font-size: 145%;
+}
+.NavProfile:hover{
+    background-color: rgba(53, 0, 103, 0.899) ;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+/* *********************************************************************************** */
+/* Navigation completes here . */
+main{
+    height:90%;
+    width: 100%;
+}
+
+/* *********************************************************************************************** */
+/* Footer starts here . NOT TO BE ALTERED  */
+footer{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    justify-content: center;
+    justify-self: flex-end;
+    align-items: flex-end;
+    padding-bottom: 5px ;
+    border-top: 1px  solid rgba(53, 0, 103, 0.899);
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+        align-items: center;
+        width: 32%;
+        font-size: 96%;
+}
+/* Footer end here . NOT TO BE ALTERED  */
+
+main{
+    height:90%;
+    width: 100%;
+}
