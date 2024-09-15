@@ -1,23 +1,26 @@
 /* this is main css file for every page . Whatsoever page developer creates ,v this file should be used as its stylesheet . Developer can add required class and id as required . */
-body , html {
-background-color: rgb(235, 222, 247); 
-height: 100%;
-width: 100%;
+body,
+html {
+    background-color: rgb(235, 222, 247);
+    height: 100%;
+    width: 100%;
 
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 /* ***************************************************************************** */
- /* This is header , NOT TO BE ALTERED */
-nav{
+/* This is header , NOT TO BE ALTERED */
+nav {
     width: 100%;
     height: 15%;
     background-color: rgb(255, 255, 255);
@@ -26,54 +29,370 @@ nav{
     align-items: center;
     padding: 20px;
 }
-.NavProfile{
+
+.NavProfile {
     display: flex;
     align-items: center;
     font-weight: 600;
-    color:rgb(53, 0, 103) ;
+    color: rgb(53, 0, 103);
     width: 9%;
     justify-content: space-around;
     padding: 5px;
 }
-.logo{
-    color:rgb(53, 0, 103) ;
+
+.logo {
+    color: rgb(53, 0, 103);
     font-size: 145%;
 }
-.NavProfile:hover{
-    background-color: rgba(53, 0, 103, 0.899) ;
+
+.NavProfile:hover {
+    background-color: rgba(53, 0, 103, 0.899);
     color: aliceblue;
     border-radius: 5px;
 }
 
 /* *********************************************************************************** */
 /* Navigation completes here . */
-main{
-    height:90%;
+main {
+    height: 90%;
     width: 100%;
 }
 
 /* *********************************************************************************************** */
 /* Footer starts here . NOT TO BE ALTERED  */
-footer{
+footer {
+
+    margin-top: 10px;
     display: flex;
     height: 8%;
     width: 100%;
     justify-content: center;
     justify-self: flex-end;
     align-items: flex-end;
-    padding-bottom: 5px ;
-    border-top: 1px  solid rgba(53, 0, 103, 0.899);
+    padding-bottom: 5px;
+    border-top: 1px solid rgba(53, 0, 103, 0.899);
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-around;
-        align-items: center;
-        width: 32%;
-        font-size: 96%;
+    align-items: center;
+    width: 34%;
+    font-size: 96%;
 }
+
 /* Footer end here . NOT TO BE ALTERED  */
 
-main{
-    height:90%;
+
+/* CSS for PropertyView Page starts here . NOT TO BE ALTERED  */
+#nav2 {
+
+    justify-content: space-between;
     width: 100%;
+    display: flex;
+    padding: 6px 20px;
 }
+
+#sub-nav-1 {
+    align-items: center;
+    display: flex;
+
+    gap: 30px;
+}
+
+i {
+    margin: 5px;
+}
+
+#sub-nav-1 h4 {
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+}
+
+#sub-nav-1 h3 {
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+}
+
+#sub-nav-2 button {
+    margin: 4px;
+    border: 1px solid black;
+
+    padding: 5px 28px;
+    border-radius: 55px;
+    font-weight: bolder;
+}
+
+#sub-nav-2 {
+    display: flex;
+
+    gap: 30px;
+}
+
+#Property-id {
+    padding: 15px;
+}
+
+#content {
+    padding: 10px;
+    width: 60%;
+}
+
+#image-small {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#image-small img {
+    border-radius: 5px;
+}
+
+#Wrap {
+    gap: 17px;
+    width: 100%;
+    display: flex;
+
+
+}
+
+#renting-tab {
+    width: 37%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#status {
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(235, 222, 247);
+}
+
+#status h4 {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#DateSelection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.input {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 45%;
+    border-radius: 5px;
+    background-color: rgb(216, 222, 228);
+}
+
+.input H3 {
+    font-weight: 400;
+}
+
+#AMOUNT {
+    display: flex;
+    gap: 7px;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+#rentInfo {
+    margin-top: 25px;
+}
+
+#DateSubmit {
+    background-color: rgb(235, 222, 247);
+    padding: 5px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px wavy black;
+}
+
+#submit-butttn {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+#submit-butttn2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 5px 10px;
+}
+
+#submit-butttn :hover {
+    background-color: bisque;
+}
+
+#Recomend {
+    background-color: rgb(0, 17, 75);
+    padding: 5px 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: rgb(255, 250, 250);
+    border: 1px wavy black;
+}
+
+#AMOUNT2 {
+    display: flex;
+    align-items: baseline;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#wrap2 {
+    border: 2px solid rgb(0, 17, 75);
+    ;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(180, 186, 193);
+    color: rgb(0, 0, 0);
+
+}
+
+.description1 {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 244, 248);
+    border-radius: 10px;
+
+}
+
+.wrapperDis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 60%;
+    padding: 10px;
+
+    width: 100%;
+
+}
+
+.headingDis2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bedDis {
+    padding: 2px;
+    margin: 13px;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    width: 30%;
+    font-size: medium;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+.ApartementDis {
+    padding: 2px;
+    margin: 13px;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    width: 68%;
+    font-size: medium;
+    border-bottom: 1px solid black;
+
+}
+
+.SubApartemntWrap {
+
+    height: 60%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+}
+
+.details1 {
+
+    width: 30%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.details2 {
+    width: 68%;
+
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.subDetails h5 {
+    font-size: 12px;
+
+}
+
+.subDetails h6 {
+    font-size: 15px;
+}
+
+.Searcher {
+    height: 100%;
+    width: 26%;
+    margin-right: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.searchbar {
+    height: 40%;
+    width: 95%;
+    display: flex;
+    background-color: rgb(221, 221, 225);
+    justify-content: space-around;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.SearchCriteria {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    align-self: center;
+    align-items: center;
+}
+
+.SearchCriteria:hover {
+    background-color: rgb(61, 67, 237);
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+/* CSS for PropertyView Page end here . NOT TO BE ALTERED  */
