@@ -547,3 +547,250 @@ i {
     background: black;
     color: white
 }
+/*css4 search bar*/
+/*********************************************************/
+/* ********************************************************** */
+
+.search-box {
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-box form input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+
+}
+
+.search-box form button {
+    background-color: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.ank{
+    padding-left: 40%;
+}
+.location-input {
+    flex: 1;
+
+}
+
+.search-box form button img {
+    width: 15px;
+    margin-top: 7px;
+
+}
+
+.search-box form label {
+    font-weight: 600;
+
+}
+
+/*---------******** recent add property*******-------------*/
+
+.sub-title {
+    margin: 50px 0 40px 0;
+    font-size: 2.2vw;
+    font-weight: 650;
+    color: black;
+}
+
+.rap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+
+
+}
+
+.rap div img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.rap div span {
+    font-weight: 500;
+    font: bold;
+}
+
+.rap div {
+    position: relative;
+}
+
+.rap div span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+
+}
+
+/*  top reted property */
+
+.toprated {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.toprated div img {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+
+}
+
+.toprated h3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+h2 .sub-title {
+    background-color: #ff5361;
+}
+
+/*  call to action */
+
+.cta {
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
+    background-size: cover;
+    background-position: center0;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
+.cta h3 {
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+
+.cta p {
+    font-size: 15px;
+    margin: 10px;
+
+}
+
+.cta-btn {
+    background: #ff5361;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.contactus {
+    text-decoration: none;
+    background: rgb(33, 126, 239);
+    color: white;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+
+.aboutmsg {
+    text-align: center;
+    margin: 80px 0;
+    color: black;
+    font-size: 17px;
+
+}
+
+.aboutmsg h2 {
+    font-size: 30px;
+    margin-bottom: 3px;
+    font-weight: 500;
+
+}
+
+.active {
+    position: relative;
+
+}
+
+.active::after {
+
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+
+}
+
+@media (max-width: 700px) {
+    .logo {
+        position: fixed;
+        top: 4%;
+        left: 7%;
+
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: #000;
+        text-align: right;
+    }
+
+    nav .nav-links li {
+        margin: 10px;
+        display: block;
+
+    }
+
+    .register-btn {
+        margin: 15px 0 30px;
+        display: inline-block;
+
+    }
+
+
+}
+.new{
+    min-height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/rn1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
