@@ -425,48 +425,48 @@ i {
 
 
 }
-
+/* 
 .house {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 30px 0;
     border-top: 1px solid #ccc;
-}
-
+} */
+/* 
 .house-img {
 
     flex-basis: 40%;
 
-}
-
+} */
+/* 
 .house-info {
     flex-basis: 58%;
     color: #555;
 
-}
+} */
 
-.house-img img {
+/* .house-img img {
     width: 100%;
     border-radius: 15px;
     padding-left: 20%;
     border-radius: 15px;
 
-}
+} */
 
-.house-info h3 {
+/* .house-info h3 {
     font-weight: 600;
     color: #333;
     font-size: 22px;
     margin: 4px 0;
 
-}
+} */
 
 .opt{
     padding-left: 7%;
 }
 
-.house-price {
+/* .house-price {
     text-align: right;
 
 }
@@ -478,7 +478,7 @@ i {
 .house-price h4 span {
     font-size: 10px;
     font-weight: 500;
-}
+} */
 
 .sidebar {
     border: 1px solid #999;
@@ -793,4 +793,28 @@ h2 .sub-title {
     background-size: cover;
     background-position: center;
 
+}
+
+.search_house {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.house-img img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.house-info {
+    padding-left: 15px;
+}
+
+.house-price {
+    color: #007bff;
+    font-weight: bold;
 }
